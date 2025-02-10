@@ -6,6 +6,7 @@ WORKDIR /app
 
 # Install system dependencies required for Python packages
 RUN apt-get update && apt-get install -y \
+    ffmpeg libsm6 libxext6  \
     libpng-dev \
     libfreetype6-dev \
     libjpeg-dev \
