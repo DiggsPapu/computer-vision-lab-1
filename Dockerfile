@@ -27,7 +27,7 @@ COPY . .
 RUN pip install matplotlib numpy pandas 
 RUN pip install pillow jupyter
 RUN pip install scikit-image 
-
+RUN pip install opencv-python
 # Expose the port Jupyter Notebook will run on
 EXPOSE 8888
 
